@@ -26,7 +26,10 @@ function App() {
   return (
     <div className="container">
       <section className="scoreboard">
-        <TopRow homeScore={homeScore} awayScore={awayScore} />
+        <TopRow 
+          homeScore={homeScore} 
+          awayScore={awayScore} 
+        />
         <BottomRow />
       </section>
       <Buttons 
